@@ -1,3 +1,10 @@
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 #Martin{
     border-radius: 50%;
 }
@@ -10,11 +17,77 @@
     float: right;
 }
 
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
+*{
+    color: #2D3748;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+h4{
+    color: #718096;
+}
+
+.heading{
+    color: #48BB78;
+}
+
+.class{
+    color: #000000;
+}
+
+h3{
+    font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+.div1{
+    background-color: #E2E8F0;
+    padding: 10px;
+}
+
+a{
+    color: #4299E1;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% 30% ;
+}
+
+header {
+    display: flexbox;
+    color: #FFFFFF;
+    background: #63B3ED;
+    text-align: center;
+    padding: 15px;
+    grid-column: span 2;
+  }
+  
+  article {
+    grid-column: 1;
+    padding: 16px;
+  }
+  
+  aside {
+    grid-column: 2;
+    padding: 16px;
+  }
+  
+  footer {
+  /*   clear: both; */
+    background: #2C5282;
+    color: #FFFFFF;
+    padding: 10px;
+    grid-column: 1 / 3;
   }
